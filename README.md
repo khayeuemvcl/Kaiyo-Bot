@@ -1,5 +1,5 @@
 # Kaiyo Discord Bot
-Small, lightweight bot for discord using discord.js
+Small, lightweight bot for discord using discord.js to coincide with an osu! private server
 
 # Commands
 * Bonk
