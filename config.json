@@ -1,0 +1,22 @@
+{
+    "bot": {
+        "token": "",
+        "prefix": "",
+        "id_role_bot": "",
+        "verify": "",
+        "guild_id": "",
+        "member_role_name": "",
+        "guild_name": "",
+        "bot_nickname": "",
+        "owner_id": "",
+        "server_icon_link": "",
+        "player_reports": "",
+        "server_link" : "",
+    },
+    "database": {
+        "host": "localhost",
+		"username": "",
+		"password": "",
+		"database": ""
+    }
+}
