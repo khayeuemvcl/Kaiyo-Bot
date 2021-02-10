@@ -21,7 +21,7 @@ Small, lightweight bot for discord using discord.js to coincide with an osu! pri
 * Ping
 
 # How to setup the bot
-* Step 1: Clone the repository `git clone https://github.com/Adobeosu/Kaiyo-Bot`
+* Step 1: Clone the repository `git clone https://github.com/Airiuwu/Kaiyo-Bot`
 * Step 2: cd into the directory and edit config.json
 * Step 3: Install Dependencies `npm install`
 * Step 4: Run the bot `node kaiyo.js`
