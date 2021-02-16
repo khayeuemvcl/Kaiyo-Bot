@@ -82,4 +82,19 @@ var patGifs = [
     'https://cdn.discordapp.com/attachments/786129390529675285/797342564989534238/tenor_17.gif',
     'https://cdn.discordapp.com/attachments/786129390529675285/797342565619204106/tenor_16.gif',
     ]
-module.exports = { cGifs, messages, responses, blushGifs, kissGifs, hugGifs, patGifs }
+
+var ppSizes = [
+	'=',
+    '==',
+	'===',
+	'====',
+	'=====',
+	'======',
+	'=======',
+	'========',
+	'=========',
+	'==========',
+	'===========',
+    '============',
+	]
+module.exports = { cGifs, messages, responses, blushGifs, kissGifs, hugGifs, patGifs, ppSizes }
