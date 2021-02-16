@@ -31,6 +31,7 @@ require("../commands/getUserTopScore")(client)
 require("../commands/getUserTopScoreRelax")(client)
 require("../commands/ping")(client)
 require("../commands/levels")(client)
+require("../commands/pp")(client)
 
 // Handlers
 require("../handlers/playerReportingListener")(client)
