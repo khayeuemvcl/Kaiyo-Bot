@@ -11,18 +11,18 @@ require("./constants/commands")(client)
 client.on('ready', () => {
     var guild = client.guilds.get(guildID);
     console.clear();
-    console.log('\n\x1b[36m%s\x1b[0m', ' ██╗  ██╗ █████╗ ██╗██╗   ██╗ ██████╗');
-    console.log('\x1b[34m%s\x1b[0m', ' ██║ ██╔╝██╔══██╗██║╚██╗ ██╔╝██╔═══██╗');
-    console.log('\x1b[36m%s\x1b[0m', ' █████╔╝ ███████║██║ ╚████╔╝ ██║   ██║');
-    console.log('\x1b[34m%s\x1b[0m', ' ██╔═██╗ ██╔══██║██║  ╚██╔╝  ██║   ██║');
-    console.log('\x1b[36m%s\x1b[0m', ' ██║  ██╗██║  ██║██║   ██║   ╚██████╔╝');
-    console.log('\x1b[34m%s\x1b[0m', ' ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝')
+    console.log('\n\x1b[36m██╗  ██╗ █████╗ ██╗██╗   ██╗ ██████╗');
+    console.log('\x1b[34m██║ ██╔╝██╔══██╗██║╚██╗ ██╔╝██╔═══██╗');
+    console.log('\x1b[36m█████╔╝ ███████║██║ ╚████╔╝ ██║   ██║');
+    console.log('\x1b[34m██╔═██╗ ██╔══██║██║  ╚██╔╝  ██║   ██║');
+    console.log('\x1b[36m██║  ██╗██║  ██║██║   ██║   ╚██████╔╝');
+    console.log('\x1b[34m╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝\x1b[0m')
     console.log('___________________________________________________________________________________________________________________________\n');
-    console.log('\x1b[36m%s\x1b[0m', `${client.user.tag} has logged on with ${guild.memberCount} users in ${guild.name}`);
+    console.log(`\x1b[36m${client.user.tag} has logged on with ${guild.memberCount} users in ${guild.name}\x1b[0m`);
     console.log('___________________________________________________________________________________________________________________________\n');
     var end =  +new Date();
     var diff = end - start;
-    console.log('\x1b[36m%s\x1b[0m', 'Initialization Time: ' + diff + 'ms\n')
+    console.log('\x1b[36mInitialization Time: ' + diff + 'ms\n\x1b[0m')
 });
 
 client.login(token);
