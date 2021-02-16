@@ -24,5 +24,5 @@ Small, lightweight bot for discord using discord.js to coincide with an osu! pri
 # How to setup the bot
 * Step 1: Clone the repository `git clone https://github.com/Airiuwu/Kaiyo-Bot`
 * Step 2: cd into the directory and edit config.json
-* Step 3: Run the setup file `./setup.sh`
+* Step 3: Run the setup file `chmod +x setup.sh && ./setup.sh`
 * Step 4: Run the bot `node kaiyo.js`
