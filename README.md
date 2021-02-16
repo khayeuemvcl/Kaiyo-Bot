@@ -19,6 +19,7 @@ Small, lightweight bot for discord using discord.js to coincide with an osu! pri
 * Stats-v
 * Stats-r
 * Ping
+* PP
 
 # How to setup the bot
 * Step 1: Clone the repository `git clone https://github.com/Airiuwu/Kaiyo-Bot`
