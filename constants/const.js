@@ -85,7 +85,7 @@ var patGifs = [
 
 var ppSizes = [
 	'=',
-    '==',
+    	'==',
 	'===',
 	'====',
 	'=====',
@@ -95,6 +95,6 @@ var ppSizes = [
 	'=========',
 	'==========',
 	'===========',
-    '============',
+    	'============',
 	]
 module.exports = { cGifs, messages, responses, blushGifs, kissGifs, hugGifs, patGifs, ppSizes }
